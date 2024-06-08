@@ -1,0 +1,146 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #333c87;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 180px;
+  }
+  
+  .nav-brand {
+    font-size: 24px;
+  }
+  
+  .menu-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    background-color: #343b7d;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #361db1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #333c87;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color:#2d39aa;
+  }
+  
+  section {
+    padding: 50px 20px;
+    text-align: center;
+  }
+  
+  #home {
+    background-color: #000000;
+  }
+  
+  #about, #experience, #contact {
+    background-color: #000000;
+    margin: 20px 0;
+  }
+  
+  section .content {
+    max-width: 10000px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #555498;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about-box, .experience-box {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .box {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+  }
+  
+  footer {
+    background-color: #414588;
+    color: #06000c;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #contact ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #contact ul li {
+    margin: 10px 0;
+  }
+  
+  #contact ul li a {
+    color: #413862;
+    text-decoration: none;
+  }
+  
+  #contact ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  #home img {
+    width: 200px; /* Adjust as needed */
+    height: 200px; /* Adjust as needed */
+    border-radius: 50%; /* Creates a circular shape */
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+  }
